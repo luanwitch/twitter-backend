@@ -28,7 +28,7 @@ DEBUG = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Isso garante que o Django aceite conexões externas no Render
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['luanvieira9.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -131,3 +131,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ],
 }
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
